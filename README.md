@@ -1,72 +1,72 @@
 # Jessica Danielle C. Ande — Professional Portfolio
 
-## Stage 1
-This version includes:
-- Responsive professional portfolio
-- Dark/light mode
-- Mobile navigation
-- Animated sections
-- New profile photo included
-- Pre-designed portfolio chatbot with prepared answers
+Welcome to my personal portfolio website.
 
-## Run locally
+I created this portfolio to introduce myself, show some of my skills, and share the projects I worked on as an IT student. This website also includes my school activities and an AI chatbot that can answer general questions and questions related to my portfolio.
 
-1. Open this folder in VS Code.
-2. Open a terminal in the project folder.
-3. Run:
+## About Me
 
-```bash
-npm install
-npm start
-```
+I am Jessica Danielle C. Ande, an IT student from Philippine Christian University. I am interested in learning more about technology and improving my skills through school projects, activities, and practical experience.
 
-4. Open http://localhost:3000
+I am also currently gaining experience as an IT Support Intern, where I get to work with hardware, software, equipment, and basic technical support.
 
-## Important
-Do NOT put a Groq API key inside `public/script.js`.
-In Stage 2, the key will be stored in `.env` and used by the server.
+## Skills
 
-## Profile photo
-Your new profile photo is already placed at `public/assets/profile.jpg`.
+### Personal Skills
+- Problem Solving
+- Eagerness to Learn
+- Task Prioritization
+- Open to New Ideas
+- Willingness to Learn New Ways of Doing Things
 
-## Next stage
-Connect the chatbot to Groq through the Node.js backend, then deploy the project on Render.
-
+### Technical Skills
+- Microsoft Word
+- Microsoft Excel
+- Microsoft PowerPoint
+- Basic Web Development
+- Basic JavaScript
+- Basic Programming
 
 ## Projects
-The portfolio includes four uploaded project PDFs:
+
+These are some of the projects and activities included in my portfolio:
+
 - PCU Enrollment Form
 - Loops & Iterations
 - Birth Month Calendar
 - Multiplication Table
 
-Each project has an **Open PDF** button in the Projects section.
+The project files are available in the Projects section of the website.
 
+## AI Chatbot
 
-## Groq AI chatbot
-The chatbot now sends questions to `/api/chat`. It can answer both portfolio questions and general questions when `GROQ_API_KEY` is configured. The API key stays on the Node.js server and is never placed in `public/script.js`.
+My portfolio also has an AI chatbot. I added this feature so visitors can ask questions while exploring my website.
 
-### Connect Groq locally
-1. Create a `.env` file in the project root (next to `server.js`).
-2. Add:
+The chatbot can:
+- Answer general questions
+- Explain basic IT and programming topics
+- Answer questions about my portfolio
+- Provide information based on the details included in my portfolio
 
-```env
-GROQ_API_KEY=your_real_groq_api_key_here
-PORT=3000
-```
+The chatbot uses the Groq API through the backend server.
 
-3. Install dependencies:
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+- Node.js
+- Express.js
+- Groq API
+
+## Running the Project
+
+To run the portfolio on a local computer:
+
+1. Download or clone this repository.
+2. Open the project folder in VS Code.
+3. Open the terminal.
+4. Install the required packages:
 
 ```bash
 npm install
-```
-
-4. Start the server:
-
-```bash
-npm start
-```
-
-5. Open `http://localhost:3000` and test questions such as `What is HTML?`, `Explain JavaScript loops`, or `What is Jessica's IT experience?`.
-
-Never upload `.env` to GitHub. It is already excluded by `.gitignore`.
