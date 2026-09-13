@@ -70,3 +70,9 @@ To run the portfolio on a local computer:
 
 ```bash
 npm install
+
+```bash
+npm start
+
+Open the link in the google
+http://localhost:3000
