@@ -1,0 +1,15 @@
+{
+  "name": "jessica-professional-portfolio",
+  "version": "1.0.0",
+  "description": "Professional portfolio with a Groq-powered general AI chatbot.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "dotenv": "^17.2.2",
+    "groq-sdk": "^0.37.0"
+  }
+}
